@@ -1,0 +1,247 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #f42222;
+  scroll-behavior: smooth;
+  overflow-wrap: break-word;
+}
+a {
+  color: #ffffff;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.navbar {
+  position: fixed;
+  background-color: #845028;
+  padding: 3px 0px 10px 10px;
+  width: 100%;
+  z-index: 1;
+}
+
+.homebutton {
+  background-color: #0000006d;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  margin-right: 8px;
+}
+
+.homebutton:hover {
+  background-color: #000000;
+  border: #000000;
+  padding: 5px 10px 5px 10px;
+}
+
+.linkbutton {
+  background-color: #0000006d;
+  border: none;
+  padding: 5px 10px 5px 10px;
+}
+
+.linkbutton:hover {
+  background-color: #000000;
+  border: #000000;
+  padding: 5px 10px 5px 10px;
+}
+
+.home {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.imgmain,
+.imgone,
+.imgtwo,
+.imgthree,
+.imgfour {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.imgmain {
+  background-image: url(../Images_FFXIV_WS/imgmain.jpg);
+  min-height: 100%;
+}
+
+.imgone {
+  background-image: url(../Images_FFXIV_WS/imgone.jpg);
+  min-height: 100%;
+}
+
+.imgtwo {
+  background-image: url(../Images_FFXIV_WS/imgtwo.jpeg);
+  min-height: 100%;
+}
+
+.imgthree {
+  background-image: url(../Images_FFXIV_WS/imgthree.jpg);
+  min-height: 100%;
+}
+
+.imgfour {
+  background-image: url(../Images_FFXIV_WS/imgfour.jpeg);
+  min-height: 100%;
+}
+
+.section {
+  text-align: justify;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-overflow: hidden;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.sectiontitle {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.introsection {
+  background-color: #65c1c8;
+  color: #000000;
+}
+
+.sectionabout {
+  background-color: #9a5d2e;
+  color: #dcdcdc;
+}
+
+.sectionmyexp {
+  background-color: #9a5d2e;
+  color: #dcdcdc;
+}
+
+.sectionsavages {
+  background-color: #9a5d2e;
+  color: #dcdcdc;
+}
+
+.sectionclosing {
+  background-color: #9a5d2e;
+  color: #dcdcdc;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.main {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+}
+
+.info {
+  position: absolute;
+  top: 36%;
+  width: 100%;
+  text-align: center;
+}
+
+.border {
+  background-color: #000000;
+  padding: 15px;
+}
+
+.bordertop {
+  background-color: #000000;
+  padding: 15px;
+}
+
+.bordertwo {
+  background-color: #9e0a0a;
+  color: #dcdcdc;
+}
+
+.arrowbutton {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  padding-top: 0px;
+  padding-left: 0px;
+  border-radius: 8px;
+  justify-content: center;
+  z-index: 2;
+  border: none;
+  background-color: #00000000;
+}
+
+.imgarrow {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 770px) {
+  .imgmain {
+    max-width: 697px;
+    background-size: 100% 100%;
+  }
+
+  .imgone {
+    max-width: 697px;
+    background-size: 100% 100%;
+  }
+
+  .imgtwo {
+    max-width: 697px;
+    background-size: 100% 100%;
+  }
+
+  .imgthree {
+    max-width: 697px;
+    background-size: 100% 100%;
+  }
+
+  .imgfour {
+    max-width: 697px;
+    background-size: 100% 100%;
+  }
+}
+@media (max-width: 369px) {
+  .border,
+  .bordertwo {
+    overflow-wrap: normal;
+    font-size: 7vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .imgmain,
+  .imgone,
+  .imgtwo,
+  .imgthree,
+  .imgfour {
+    background-attachment: scroll;
+  }
+}
